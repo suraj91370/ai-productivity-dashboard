@@ -5,7 +5,7 @@ import { playClick } from '../utils/sound';
 
 export default function GitModal({ isOpen, onClose }) {
   const [copiedIndex, setCopiedIndex] = useState(null);
-  const [username, setUsername] = useState('suraj913708');
+  const [username, setUsername] = useState('suraj91370');
   const [repoName, setRepoName] = useState('ai-productivity-dashboard');
 
   if (!isOpen) return null;
