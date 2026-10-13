@@ -1,0 +1,17 @@
+/* Responsive layout adjustments */
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0.5rem !important;
+  }
+  
+  header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
