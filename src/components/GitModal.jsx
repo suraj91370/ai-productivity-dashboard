@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { X, Copy, Check, Terminal, ExternalLink, GitBranch, ArrowRight, ShieldCheck } from 'lucide-react';
 import GithubIcon from './GithubIcon';
 import { playClick } from '../utils/sound';
